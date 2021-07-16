@@ -2,3 +2,89 @@
     box-sizing: border-box;
 }
 
+/* we are going to declare variables*/
+
+:root {
+    --light: white;
+    --dark: black;
+    --primary: grey;
+    --secondary: skyblue;
+    --tertiary: rgb(63, 63, 63);
+}
+
+
+
+/* body*/
+body {
+    color: var(--primary);
+    background-color: var(--light);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+
+}
+
+h1, 
+h2,
+h3 {
+    margin: 0;
+    
+}
+
+p {
+    margin: 0;
+}
+
+/* header*/
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary);
+}
+
+#
+
+#portfolio {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary);
+}
+ #contact me {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary);
+}
+
+
+/* portfolio content */
+
+
+
+
+
+
+/* contacts */
+
+
+
+
+
+
+
+/* media queries - responsiveness*/
+
+
+
+
+
+
+
+/* we are going to declare variables*/
