@@ -43,7 +43,24 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--tertiary);
+    background-color: var(--secondary);
+}
+
+#
+
+#portfolio {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary);
+}
+ #contact me {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary);
 }
 
 
