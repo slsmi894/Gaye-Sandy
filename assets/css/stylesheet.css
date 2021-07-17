@@ -25,6 +25,8 @@ body {
 
 }
 
+
+
 h1, 
 h2,
 h3 {
@@ -43,19 +45,60 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--tertiary);
+}
+
+
+header h1 {
+ 
     background-color: var(--secondary);
+    color: var(--tertiary);
+    margin: 0;
+    font-size: 4vw;
+    line-height: 1;
+    padding: 5px 1% 5px 6%;
 }
 
-#
-
-#portfolio {
-    display:flex;
+nav {
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--primary);
+
 }
- #contact me {
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--secondary);
+    margin-right: 10px;
+    background-image:linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transition: all 025s ease-in;
+    font-size: 1.4rem;
+    
+}
+
+nav a:hover {
+    background-size: 100% 100%;
+    color: var(--primary);
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+.box-section {
+    display:flex; 
+
+}
+
+.flex-items {
+
+}
+
+
+#contact me {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
