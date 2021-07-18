@@ -98,27 +98,164 @@ nav a:last-child {
     margin-right: 5;
 }
 
+main {
+    margin-top: 20px;
+    margin-bottom: 45px;
+
+}
+
+.hero-banner    {
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    background: slategray;
+    background-image: url(" "), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    min-height: 30vh;
+    color: var(--light);
+    padding: 2% 6%;
+
+
+}
+
+.hero-banner div {
+    display: flex; 0 0 90%;
+
+}
+
+.hero-banner h2 {
+    background-color: var(--secondary);
+    color: var(--tertiary);
+    margin: 0;
+    padding: 5px 10px;
+    font-size:2.4rem;
+    line-height: 1.3;
+    display: inline;
+}
+
+
+.page-wrapper {
+    max-width: 88%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
 .box-section {
     display:flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
     font-size: 
-    margin-right: 5px;
+    margin: 25px 0;
+    padding: 10px 0;
+
+}
+
+.box-section > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding: 15px;
+    border-right: 4px solid var(--primary);
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.box-section > div {
+    flex: 0 0 77%;
+
+}
+
+.box-section p {
+    margin-bottom: 20px;
+
+}
+
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
 .flex-items {
+    display: flex;
+    align; flex-end;
+    flex-basis: calc(50% - 1em);
+    min-height: 100px;
+    max-height: 150px;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+    border: 5px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--tertiary);
+
+}
+.flex-items:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
 
 }
 
+.flex-items:hover {
+    background-color: black;
 
-#contact me {
+}
+
+.flex-items div {
+    background-color: var(--secondary);
+    padding: 8px 10px;
+}
+
+.flex-items h3 {
+    font-size: 1.6rem;
+
+
+}
+.contact div {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: var(--primary);
-    
+    height: 100%;
 }
 
+.contact div a {
+    display: inline-block;
+    padding:5px;
+    color: var(--tertiary);
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-style: normal;
+    background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.3em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    margin: 0 0.2rem 0.1rem;
+
+}
+
+.contact div a:hover {
+    background-size: 100% 88%;
+    color: var(--secondary);
+
+
+}
+
+.findfresh {
+    background-image: url(" ");
+}
 
 /* portfolio content */
 
@@ -137,9 +274,30 @@ nav a:last-child {
 
 /* media queries - responsiveness*/
 
+@media (max-width: 690px) {
+    header {
+        
+    }
+    
+}
+
+media screen (look this 
+header,
+h1,
+nav
+b)\
+box-section h2 (look at how it's written)
+
+Look up media screen - just take a look and figure out from the read me - quite a bit to do - try to figure it out. then add - then do a pull request and Sandy will look at it. 
 
 
 
+@media (max-width: 690px) {
+    .btn {
+      font-size: 1rem;
+      margin: 16px 0px 0px 0px;
+      padding: 10px 15px;
+    }
 
 
 
