@@ -273,6 +273,14 @@ main {
 
 
 /* media queries - responsiveness*/
+
+@media (max-width: 690px) {
+    header {
+        
+    }
+    
+}
+
 media screen (look this 
 header,
 h1,
@@ -284,6 +292,12 @@ Look up media screen - just take a look and figure out from the read me - quite 
 
 
 
+@media (max-width: 690px) {
+    .btn {
+      font-size: 1rem;
+      margin: 16px 0px 0px 0px;
+      padding: 10px 15px;
+    }
 
 
 
